@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "discord-gpt"
+version = "0.1.0"
+description = "This is a discord bot integrated with gpt chat"
+authors = ["Gustavo Gonzaga"]
+readme = "README.md"
+packages = [{include = "discord_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.2.2"
+python-dotenv = "^1.0.0"
+openai = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
